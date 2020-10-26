@@ -8,5 +8,12 @@ class car:
         print('color: ', self.color)
         print('starting the engine')
 
-my_car = car('corolla','white')
-car.start(my_car)
+
+my_car1 = car('corolla', 'white')
+my_car1.start()
+
+my_car2 = car('premio', 'black')
+my_car2.start()
+
+my_car3 = car('Allion', 'blue')
+my_car3.start()
