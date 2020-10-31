@@ -9,8 +9,10 @@ class vehicle:
     def turn(self, direction):
         print('Turning', self.name, 'to', direction)
 
+
 class car(vehicle):
     """ Car class """
+
     def __init__(self, name, manufacturer, color, year):
         self.name = name
         self.manufacturer = manufacturer
@@ -28,6 +30,6 @@ class car(vehicle):
 
 if __name__ == "__main__":
     c = car('mustang 5.0 GT coupe', 'Ford', 'Red', 2017)
-    v = vehicle('softail delux', 'harley - davidson','blue')
+    v = vehicle('softail delux', 'harley - davidson', 'blue')
     c.turn('right')
     v.turn('right')
